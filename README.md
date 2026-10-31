@@ -64,5 +64,166 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Opper AI is a company surfaced via the API Evangelist harvest backlog (source: stockholm-trip) and added to the network as a stub for full-pipeline profiling.
-- https://opper.ai/
+Opper AI provides a European AI gateway offering access to over 700 AI models via a GDPR‑compliant, ISO‑27001 certified API. It supports OpenAI‑compatible SDKs, pay‑as‑you‑go pricing, spend caps, model allowlists, and zero data retention, targeting developers building AI agents across Europe.
+
+**Areas:** Artificial Intelligence · Gateways · European · OpenAI-Compatible · GDPR
+
+## Opper AI on APIs.io
+
+Everything profiled for Opper AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/opper/](https://apis.io/providers/opper/)** — or go straight to one of the APIs or properties below.
+
+### APIs (19)
+
+- [Opper AI Account API](https://apis.io/apis/opper/opper-account-api/) — Caller identity, credits, and usage
+- [Opper AI Artifacts API](https://apis.io/apis/opper/opper-artifacts-api/) — Async generation status and downloads
+- [Opper AI Audio API](https://apis.io/apis/opper/opper-audio-api/) — Text-to-speech and speech-to-text
+- [Opper AI Compatibility API](https://apis.io/apis/opper/opper-compatibility-api/) — The Compatibility API from Opper AI — 15 operation(s) for compatibility.
+- [Opper AI Files API](https://apis.io/apis/opper/opper-files-api/) — Reusable file storage for media inputs and generated outputs
+- [Opper AI Functions API](https://apis.io/apis/opper/opper-functions-api/) — Schema-driven function management and execution
+- [Opper AI Generations API](https://apis.io/apis/opper/opper-generations-api/) — Recorded HTTP request/response generations
+- [Opper AI Images API](https://apis.io/apis/opper/opper-images-api/) — Synchronous image generation
+- [Opper AI Management API](https://apis.io/apis/opper/opper-management-api/) — Programmatic project and API-key management. Authenticates with an `op-mak-…` management token; available on the control_plane and enterprise plans.
+- [Opper AI Models API](https://apis.io/apis/opper/opper-models-api/) — Model registry and capabilities
+- [Opper AI OCR API](https://apis.io/apis/opper/opper-ocr-api/) — The OCR API from Opper AI — 1 operation(s) for ocr.
+- [Opper AI Rerank API](https://apis.io/apis/opper/opper-rerank-api/) — The Rerank API from Opper AI — 1 operation(s) for rerank.
+- [Opper AI Roundtable API](https://apis.io/apis/opper/opper-roundtable-api/) — Roundtable endpoint — fan out a query to multiple LLMs and combine results
+- [Opper AI Spans API](https://apis.io/apis/opper/opper-spans-api/) — The Spans API from Opper AI — 3 operation(s) for spans.
+- [Opper AI System API](https://apis.io/apis/opper/opper-system-api/) — System health and status
+- [Opper AI Tools API](https://apis.io/apis/opper/opper-tools-api/) — Web search, fetch, and other utility tools
+- [Opper AI Traces API](https://apis.io/apis/opper/opper-traces-api/) — The Traces API from Opper AI — 3 operation(s) for traces.
+- [Opper AI User delegation API](https://apis.io/apis/opper/opper-user-delegation-api/) — The User delegation API from Opper AI — 30 operation(s) for user delegation.
+- [Opper AI Videos API](https://apis.io/apis/opper/opper-videos-api/) — Asynchronous video generation
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Opper Agentic Access](https://apis.io/agentic-access/opper/opper-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ChatRequest](https://apis.io/schemas/opper/opper-chat-request/)
+- [ModelResolveResponse](https://apis.io/schemas/opper/opper-model-resolve-response/)
+- [ModelsResponse](https://apis.io/schemas/opper/opper-models-response/)
+- [response.completed](https://apis.io/schemas/opper/opper-orstream-event-completed/)
+- [response.in_progress](https://apis.io/schemas/opper/opper-orstream-event-response-in-progress/)
+- [RoundtableResponse](https://apis.io/schemas/opper/opper-roundtable-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Opper Context](https://apis.io/jsonld/opper/opper-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Opper Openapi Overlay](https://apis.io/overlays/opper/opper-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Opper AI API Rules](https://apis.io/rules/opper/opper-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Opper Authentication](https://apis.io/security/opper/opper-authentication/)
+- [Opper Domain Security](https://apis.io/security/opper/opper-domain-security/)
+- [Opper Trust Center](https://apis.io/security/opper/opper-trust-center/)
+- [Opper Vulnerability Disclosure](https://apis.io/security/opper/opper-vulnerability-disclosure/)
+
+#### Plans and pricing (2)
+
+Published plans, tiers and prices.
+
+- [Opper Plans Pricing](https://apis.io/plans/opper/opper-plans-pricing/)
+- [Opper Price Estimates](https://apis.io/plans/opper/opper-price-estimates/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Opper Finops](https://apis.io/finops/opper/opper-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://opper.ai/)
+- [Documentation](https://docs.opper.ai/)
+- [Getting started](https://docs.opper.ai/overview/quickstart)
+- [API reference](https://docs.opper.ai/llms.txt)
+- [Pricing](https://opper.ai/pricing)
+- [Changelog](https://opper.ai/changelog)
+- [Blog](https://opper.ai/blog)
+- [Security](https://opper.ai/security-overview)
+- [Compliance](https://trust.opper.ai/)
+- [Terms of service](https://opper.ai/terms-of-service)
+- [Privacy policy](https://opper.ai/privacy-policy)
+- [GitHub](https://github.com/opper-ai)
+- [Status](https://status.opper.ai/)
+
+## API Evangelist rating
+
+**Kin Score 67.1** — exemplar · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 63.4 |
+| Contract governance | 35.6 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 51.8 |
+| Access clarity | 92.1 |
+
+**Agent readiness 51.8** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 32.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/opper/](https://apis.io/providers/opper/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Opper AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/opper/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
